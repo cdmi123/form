@@ -43,14 +43,14 @@ function App() {
 
       <form className="row g-3" onSubmit={handleSubmit}>
         <div className="col-md-12">
-          <label htmlFor="inputEmail10" className="form-label">Name Helloooo</label>
+          <label htmlFor="inputEmail10" className="form-label">Name</label>
           <input type="text" name='name' className="form-control" id="inputEmail10" onChange={handleChange} onBlur={handleBlur} />
           
             {(errors.name && touched.name) ? (<div className="text-danger">{errors.name}</div>) : null}
           
         </div>
         <div className="col-md-12">
-          <label htmlFor="inputEmail4" className="form-label">Email</label>
+          <label htmlFor="inputEmail4" className="form-label">Email Hellooooo</label>
           <input type="email" name='email' className="form-control" id="inputEmail4" onChange={handleChange} onBlur={handleBlur} />
 
           {(errors.email && touched.email) ? (<div className="text-danger">{errors.email}</div>) : null}
