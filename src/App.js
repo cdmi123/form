@@ -43,7 +43,7 @@ function App() {
 
       <form className="row g-3" onSubmit={handleSubmit}>
         <div className="col-md-12">
-          <label htmlFor="inputEmail10" className="form-label">Name</label>
+          <label htmlFor="inputEmail10" className="form-label">Name Helloooo</label>
           <input type="text" name='name' className="form-control" id="inputEmail10" onChange={handleChange} onBlur={handleBlur} />
           
             {(errors.name && touched.name) ? (<div className="text-danger">{errors.name}</div>) : null}
